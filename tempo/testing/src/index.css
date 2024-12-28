@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset default styles */
+/* Global styles to ensure full height and background color */
+/* General page styling */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #121212; /* Dark background */
+  color: white; /* White text for contrast */
+}
+
+#root {
+  height: 100%;
+}
+
+/* Apply dark background to all page sections */
+.main-content {
+  background-color: #121212;
+  color: white;
+  min-height: 100%;
+}
+
+/* Banner container */
+/*.banner {
+  position: relative;
+  width: 50%;
+  height: 50vh; /* Full viewport height */
+ /* background-color: #333; /* Dark background color 
+  color: white;
+  overflow: hidden; /* Ensure no unwanted overflow 
+  padding: 0;
+}*/
+/* Ensure the banner image takes up the entire banner */

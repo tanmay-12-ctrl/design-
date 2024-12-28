@@ -1,0 +1,79 @@
+.search {
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    width: 50vw; /* Adjusted width for better control */
+    max-width: 600px;
+    padding: 20px;
+    background-color: #121212; /* Dark background for the search section */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #333333; /* Dark background for the header */
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.search > input {
+    width: 100%;
+    padding: 20px;
+    background-color: #333333; /* Dark background for the input */
+    color: white;
+    border: 1px solid #444444; /* Border to distinguish the input */
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.search > input:focus {
+    outline-width: 0;
+    border: 1px solid #ff7779; /* Focus border color */
+}
+
+.search > button {
+    position: absolute;
+    left: 0;
+    top: 480px;
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.search > button:hover {
+    background-color: white;
+    color: #ff7779;
+    transition: all 0.3s ease;
+}
+
+.search .rdrDateRangeWrapper {
+    background-color: #333333; /* Dark background for date picker */
+    border-radius: 10px;
+}
+
+.search .rdrMonthAndYearWrapper {
+    background-color: #222222; /* Darker background for month/year header */
+    color: white;
+}
+
+.search .rdrDayNumber {
+    color: white; /* White color for day numbers */
+}
+
+.search .rdrSelectedDate {
+    background-color: #ff7779 !important; /* Highlight selected date */
+    color: white;
+}
